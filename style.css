@@ -1,0 +1,252 @@
+body {
+    background-image: url(Design\ sem\ nome\ \(10\).png);
+    
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.titulotd {
+    color: #00ACCC;
+    font-size: 30px;
+    text-align: center;
+}
+
+/**********************  area de header **********/
+
+.cabeca {
+
+    color: white;
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+    margin: 0 auto;
+    padding: 0 auto;
+    
+    
+    
+    }
+
+    .front {
+        cursor: pointer;
+        margin-left: 5%;
+    }
+    
+    .navegacao {
+    
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-left: 20px;    
+
+
+        margin-right: 20px;
+
+       
+    
+    
+    
+    }
+a:hover {
+    color: rgb(145, 145, 145);
+    
+
+    padding: 0.4rem;
+    
+    position: relative;
+    margin: 0;
+  
+}    
+
+.navegacao a::before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgb(138, 138, 138);
+    transition: all 1.7s ease;
+    margin: 0;
+
+
+  
+}
+
+.navegacao a:hover::before {
+    width: 100%;
+}
+
+
+
+
+.principal {
+    
+        text-align: center;
+        margin-top: 100px;
+        color: rgb(218, 216, 216);
+        height: 400px;
+
+}
+ 
+.nome {
+    font-size: 5rem;
+    text-shadow: 0.2em .1em 0.1em rgb(0, 0, 0) ;
+}
+
+.vaga {
+    margin-top: -50px;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+/*//////////////////*area sobre  //////////////*/ 
+.informacoes {
+
+    background-color: white;
+}
+
+.sobre {
+
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.titulo {
+
+    font-size: 35px;
+    text-align: center;
+}
+
+.conteudo {
+
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    
+
+}
+.sou {
+    width: 600px;
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(102, 102, 101);
+
+
+}
+
+#foto {
+    width: 230px;
+    height: 200px;
+}
+
+/************ area sobre habilidades ****************/
+
+.habilidades {
+
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+    display: flex;
+
+    justify-content: space-evenly;
+
+    margin-top: -80px;
+    flex-wrap: wrap;
+}
+
+.perfil {
+
+    width: 300px;
+}
+
+.titulohabilidades {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.infos {
+
+    color: rgb(99, 98, 98);
+}
+ 
+.img {
+    width: 50px;
+    height: 50px;
+}
+.links {
+
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    height: 100px;
+    padding-top: 80px;
+
+}
+
+.imglink {
+    margin-top: 50px;
+    border-radius: 100px;
+    margin-left: 60px;
+}
+
+/************************* area resumo *************/
+
+.resumo {
+    background-color: rgb(225, 223, 221);
+    padding-top: 30px;
+    height: 700px;
+    text-align: center;
+
+}
+.resumotitu {
+
+    color: rgb(87, 85, 85);
+    font-size: 25px;
+
+
+}
+
+.titi {
+    margin-left: 60px;
+
+
+
+}
+
+.hi {
+
+    height: 200px;
+    border-left: 1px solid;
+    margin-left: 300px;
+    
+}
+
+.descricaoresumo {
+    width: 400px;
+    margin-left: 200px;
+    color: rgb(75, 75, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+
+}
+
+
+
+
+
+
+
+
